@@ -1,0 +1,38 @@
+  AOI_Tool.Main_form.resources - Embedded, ContainedInManifestFile, 
+  AOI_Tool.Setting_form.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly AOI_Tool, Version=1.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AOI_Tool.Program: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    StringConverter(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, Static, HideBySig
+    Mosaic(Mat*, Mat* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Scan(Mat*, Mat* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    FindAOI(Mat*, Mat* IsImplicitlyDereferenced, Mat* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SortAOI(Mat* IsImplicitlyDereferenced, Int32): PrivateScope, Public, HideBySig
+    ReDraw(Mat* IsImplicitlyDereferenced, Int32): PrivateScope, Public, HideBySig
+    LoadFixation(String): PrivateScope, Public, HideBySig
+    MainFunction(String, Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class AOI_Tool.Setting_form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AOI_Tool.Main_form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
